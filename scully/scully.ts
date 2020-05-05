@@ -95,7 +95,8 @@ You are using "${yellow(scullyConfig.hostUrl)}" as server.
         });
       }
       /** done, stop the program */
-      process.exit(0);
+      process.kill(process.pid);
+      // process.exit(0);
     }
   }
 })();
