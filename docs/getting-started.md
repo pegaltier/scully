@@ -25,7 +25,7 @@ First, open in your terminal in the path of your Angular application and run the
 ng add @scullyio/init
 ```
 
-This scheme installs and generates everything you need to start using Scully.
+This something installs and generates everything you need to start using Scully.
 Once the installation finishes the following message will be displayed:
 
 ```bash
