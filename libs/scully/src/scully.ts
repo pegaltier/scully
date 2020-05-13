@@ -3,7 +3,6 @@
 /**
  * The above line is needed to be able to run in npx and CI.
  */
-console.log('starting');
 import { readFileSync } from 'fs-extra';
 import open from 'open';
 import { join } from 'path';
@@ -29,8 +28,6 @@ if (process.argv.includes('version')) {
   );
   process.exit(0);
 }
-
-// console.log('starting')
 
 (async () => {
   /** make sure not to do something before the config is ready */
